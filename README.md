@@ -26,7 +26,7 @@
 
 ## Что нужно
 
-* Deepal S07 с прошивкой 4.0, 4.0.1, 4.1, 4.1.1 или 4.2.1;
+* Deepal S07 с прошивкой 4.0–4.2.1 (кроме Lazer);
 * компьютер с macOS или Windows;
 * кабель USB.
 
@@ -36,7 +36,7 @@
 
 ## Установка на macOS
 
-1. Скачайте `Deepal-Installer-1.1-macOS.dmg` со страницы
+1. Скачайте `Deepal-Installer-1.2-macOS.dmg` со страницы
    [Releases](https://github.com/deepaltools/deepal-installer-releases/releases/latest).
 2. Откройте образ и перетащите **Deepal Installer** в «Программы».
 3. Первый запуск: правой кнопкой по программе → «Открыть» → «Открыть». Так один раз,
@@ -80,7 +80,7 @@ macOS   4299ef8437dc3f5a5214bad649d489437c7e5977abf8d13ebce80e983f48786e
 Windows 11b867a3f70a9f9d42639bcd4ffe2943d842281aad178d95aa982df272e0636d
 ```
 
-На macOS: `shasum -a 256 Deepal-Installer-1.1-macOS.dmg`
+На macOS: `shasum -a 256 Deepal-Installer-1.2-macOS.dmg`
 На Windows: `certutil -hashfile Deepal-Installer-1.0-Windows.zip SHA256`
 
 ## Исходный код
