@@ -36,7 +36,7 @@
 
 ## Установка на macOS
 
-1. Скачайте `Deepal-Installer-1.2-macOS.dmg` со страницы
+1. Скачайте `Deepal-Installer-1.4-macOS.dmg` со страницы
    [Releases](https://github.com/deepaltools/deepal-installer-releases/releases/latest).
 2. Откройте образ и перетащите **Deepal Installer** в «Программы».
 3. Первый запуск: правой кнопкой по программе → «Открыть» → «Открыть». Так один раз,
@@ -50,7 +50,7 @@ xattr -dr com.apple.quarantine "/Applications/Deepal Installer.app"
 
 ## Установка на Windows
 
-1. Скачайте `Deepal-Installer-1.2-Windows.zip` со страницы
+1. Скачайте `Deepal-Installer-1.4-Windows.zip` со страницы
    [Releases](https://github.com/deepaltools/deepal-installer-releases/releases/latest).
 2. Распакуйте архив в любую папку.
 3. Запустите **Deepal Installer.exe**.
@@ -68,6 +68,9 @@ xattr -dr com.apple.quarantine "/Applications/Deepal Installer.app"
    «Подключить машину».
 3. **Поставьте магазин.** Дальше приложения ставятся и обновляются уже в машине через
    Deepal Store — компьютер не нужен.
+4. **По желанию — русская клавиатура.** Кнопка «Установить Deepal Keyboard» ставит
+   [Deepal Keyboard](https://github.com/deepaltools/deepal-keyboard-releases), включает её,
+   выбирает по умолчанию и выдаёт право держать китайскую клавиатуру выключенной.
 
 Программа умеет ставить и любой другой `.apk` — перетащите файл в окно.
 
@@ -76,12 +79,12 @@ xattr -dr com.apple.quarantine "/Applications/Deepal Installer.app"
 Контрольные суммы SHA-256:
 
 ```
-macOS   4299ef8437dc3f5a5214bad649d489437c7e5977abf8d13ebce80e983f48786e
-Windows 11b867a3f70a9f9d42639bcd4ffe2943d842281aad178d95aa982df272e0636d
+macOS   03db1af51618d6e06b01ae4ce486de87ed1a0d3d02ab123f4c6f8bb4908f75c2
+Windows d5539783a9fbe2d330598a46d7dca9a42f79c295c452990c5a15e18b155c1538
 ```
 
-На macOS: `shasum -a 256 Deepal-Installer-1.2-macOS.dmg`
-На Windows: `certutil -hashfile Deepal-Installer-1.2-Windows.zip SHA256`
+На macOS: `shasum -a 256 Deepal-Installer-1.4-macOS.dmg`
+На Windows: `certutil -hashfile Deepal-Installer-1.4-Windows.zip SHA256`
 
 ## Лицензия
 
