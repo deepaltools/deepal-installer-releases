@@ -36,7 +36,7 @@
 
 ## Установка на macOS
 
-1. Скачайте `Deepal-Installer-1.4-macOS.dmg` со страницы
+1. Скачайте `Deepal-Installer-1.7-macOS.dmg` со страницы
    [Releases](https://github.com/deepaltools/deepal-installer-releases/releases/latest).
 2. Откройте образ и перетащите **Deepal Installer** в «Программы».
 3. Первый запуск: правой кнопкой по программе → «Открыть» → «Открыть». Так один раз,
@@ -50,7 +50,7 @@ xattr -dr com.apple.quarantine "/Applications/Deepal Installer.app"
 
 ## Установка на Windows
 
-1. Скачайте `Deepal-Installer-1.4-Windows.zip` со страницы
+1. Скачайте `Deepal-Installer-1.7-Windows.zip` со страницы
    [Releases](https://github.com/deepaltools/deepal-installer-releases/releases/latest).
 2. Распакуйте архив в любую папку.
 3. Запустите **Deepal Installer.exe**.
@@ -83,8 +83,8 @@ macOS   03db1af51618d6e06b01ae4ce486de87ed1a0d3d02ab123f4c6f8bb4908f75c2
 Windows d5539783a9fbe2d330598a46d7dca9a42f79c295c452990c5a15e18b155c1538
 ```
 
-На macOS: `shasum -a 256 Deepal-Installer-1.4-macOS.dmg`
-На Windows: `certutil -hashfile Deepal-Installer-1.4-Windows.zip SHA256`
+На macOS: `shasum -a 256 Deepal-Installer-1.7-macOS.dmg`
+На Windows: `certutil -hashfile Deepal-Installer-1.7-Windows.zip SHA256`
 
 ## Лицензия
 
